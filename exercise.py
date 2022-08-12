@@ -20,6 +20,28 @@ number2 = input("Enter a second number: ")
 print(not "")
 print(not "aek1")
 print(bool (""))
+
+
+counter = 1
+for counter in range(0,3):
+    first_number = int(input("Enter a number: "))
+    second_number = int(input("Enter a second number: "))
+    high_umber = False
+
+    if first_number >= 10000 and second_number >= 10000:
+        high_umber = True
+        print("Both number are big")
+    if first_number != second_number:
+        print("The numbers are not equal!")
+    if second_number >= first_number:
+        print("Second number is greater than or equal to first number")
+    if second_number > first_number:
+        print("Second number is greater than first number")
+    if first_number >= second_number:
+        print("First number is greater or equal to second number")
+    if first_number > second_number:
+        print("First number is greater than second number") 
+
 '''
 
 months = ["January", "February", "March", "April", "May", "June", "July", 
