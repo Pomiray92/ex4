@@ -79,7 +79,23 @@ else:
     print("Check for type error")
 
 
+import math
 
+userinp = int(input("how many Terms?: "))
+
+fib1 = 0
+fib2 = 1
+count = 0
+if userinp <=-1: #check
+    print("please enter a positive number")
+else:
+    print("Fibonacci sequence:")
+    while count < userinp:
+        print(fib1)
+        result = fib1 + fib2
+        fib1 = fib2
+        fib2 = result
+        count +=1
 
 
 
